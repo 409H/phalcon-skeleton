@@ -8,4 +8,9 @@ class IndexController extends BaseController
     {
         //Do something...
     }
+
+    public function aboutAction()
+    {
+        //Do something...
+    }
 }
