@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    # Allow for robots.txt to be reached by bots
+    RewriteCond %{REQUEST_URI} ^/robots\.txt$
+    RewriteRule ^.*$ - [NC,L]
+
+    # Allow for the sitemap to be reached by bots
+    RewriteCond %{REQUEST_URI} ^/sitemap.xml$
+    RewriteRule ^.*$ - [NC,L]
+
+    # Rewrite everything to public to route properly
+    RewriteRule  ^$ public/    [L]
+    RewriteRule  ((?s).*) public/$1 [L]
+</IfModule>
