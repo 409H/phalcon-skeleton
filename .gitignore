@@ -1,5 +1,6 @@
 # Files we don't want relative to the application
 /app/cache/*.php
+/app/view/views/**.php
 
 # User-specific stuff:
 .idea/workspace.xml
