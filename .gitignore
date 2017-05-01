@@ -1,2 +1,9 @@
-.idea
+# Files we don't want relative to the application
 /app/cache/*.php
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
