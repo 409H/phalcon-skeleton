@@ -12,3 +12,6 @@ From the controller action calling the `index.volt` file, the view is compiled l
 
 ![https://github.com/409H/phalcon-skeleton/blob/master/public/assets/images/ViewPreview.PNG?raw=true](https://github.com/409H/phalcon-skeleton/blob/master/public/assets/images/ViewPreview.PNG?raw=true)
 
+## app/view/views/index/about.volt
+
+* This file is the view that will be autopicked by Phalcon when then `AboutAction` is called on the `IndexController`.
